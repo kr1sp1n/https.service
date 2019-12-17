@@ -1,0 +1,36 @@
+{
+  "name": "https.service",
+  "version": "0.0.0",
+  "description": "simple http/https request service",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "lint": "standard --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kr1sp1n/https.service.git"
+  },
+  "keywords": [
+    "https",
+    "request",
+    "service"
+  ],
+  "author": "kr1sp1n",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kr1sp1n/https.service/issues"
+  },
+  "homepage": "https://github.com/kr1sp1n/https.service#readme",
+  "dependencies": {
+    "config": "^3.2.4",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "standard": "^14.3.1"
+  }
+}
