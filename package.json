@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/kr1sp1n/https.service#readme",
   "dependencies": {
-    "config": "^3.2.4",
+    "config": "^3.3.8",
     "koa": "^2.11.0",
     "koa-body": "^4.1.1",
     "request": "^2.88.0"
